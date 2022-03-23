@@ -7,7 +7,7 @@ class Chatbox {
         }
 
         this.state = false;
-        this.message = [];
+        this.messages = [];
     }
 
     display() {
@@ -46,8 +46,6 @@ class Chatbox {
         let msg1 = { name: "User", message: text1 }
         this.messages.push(msg1);
 
-        // $SCRIPT_ROOT + '/predict'
-        // 'http://127.0.0.1:5000/predict'
         fetch('http://127.0.0.1:5000/predict', {
             method: 'POST',
             body: JSON.stringify({ message: text1 }),
@@ -86,8 +84,8 @@ class Chatbox {
         const chatmessage = chatbox.querySelector('.chatbox__messages');
         chatmessage.innerHTML = html;
     }
-
 }
+
 
 const chatbox = new Chatbox();
 chatbox.display();
