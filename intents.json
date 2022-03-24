@@ -8,22 +8,25 @@
         "How are you",
         "Is anyone there?",
         "Hello",
-        "Good day"
+        "Good day",
+        "ado"
       ],
       "responses": [
         "Hey :-)",
-        "Hello, thanks for visiting",
-        "Hi there, what can I do for you?",
-        "Hi there, how can I help?"
+        "Hello there!",
+        "Hi there!",
+        "Hello fellow Gamer!"
       ]
     },
     {
       "tag": "goodbye",
-      "patterns": ["Bye", "See you later", "Goodbye"],
+      "patterns": ["Bye", "See you later", "Goodbye", "cya", "ciao"],
       "responses": [
         "See you later, thanks for visiting",
         "Have a nice day",
-        "Bye! Come back again soon."
+        "Bye! Come back again soon.",
+        "Talk to you later!",
+        "Good Bye then!"
       ]
     },
     {
@@ -32,40 +35,97 @@
       "responses": ["Happy to help!", "Any time!", "My pleasure"]
     },
     {
-      "tag": "items",
+      "tag": "owner",
       "patterns": [
-        "Which items do you have?",
-        "What kinds of items are there?",
-        "What do you sell?"
+        "who is the owner",
+        "who is the developer"
       ],
       "responses": [
-        "We sell coffee and tea",
-        "We have coffee and tea"
+        "Nimesh Fernando is the Owner & Developer of Safe Gamers."
       ]
     },
     {
-      "tag": "payments",
+      "tag": "botname",
       "patterns": [
-        "Do you take credit cards?",
-        "Do you accept Mastercard?",
-        "Can I pay with Paypal?",
-        "Are you cash only?"
+        "who are you?",
+        "what is your name?"
       ],
       "responses": [
-        "We accept VISA, Mastercard and Paypal",
-        "We accept most major credit cards, and Paypal"
+        "I'm SG Bot!",
+        "My name is SG Bot."
       ]
     },
     {
-      "tag": "delivery",
+      "tag": "games",
       "patterns": [
-        "How long does delivery take?",
-        "How long does shipping take?",
-        "When do I get my delivery?"
+        "game",
+        "gamer"
       ],
       "responses": [
-        "Delivery takes 2-4 days",
-        "Shipping takes 2-4 days"
+        "PC | Playstation | Mobile ?"
+      ]
+    },
+    {
+      "tag": "pcgames",
+      "patterns": [
+        "pc games",
+        "computer",
+        "pcgamer"
+      ],
+      "responses": [
+        "What is your PC Gaming related problem?",
+        "Do you have any PC Gaming related problem?"
+      ]
+    },
+    {
+      "tag": "psgames",
+      "patterns": [
+        "ps", "ps2", "ps3", "ps4", "ps5",
+        "play station",
+        "playstation"
+      ],
+      "responses": [
+        "What is your PS Gaming related problem?",
+        "Do you have any PS Gaming related problem?"
+      ]
+    },
+    {
+      "tag": "mobilegames",
+      "patterns": [
+        "mobile",
+        "smart phone",
+        "phone"
+      ],
+      "responses": [
+        "What is your Mobile Gaming related problem?",
+        "Do you have any Mobile Gaming related problem?"
+      ]
+    },
+    {
+      "tag": "rock",
+      "patterns": [
+        "rock"
+      ],
+      "responses": [
+        "Paper"
+      ]
+    },
+    {
+      "tag": "paper",
+      "patterns": [
+        "paper"
+      ],
+      "responses": [
+        "Scissors"
+      ]
+    },
+    {
+      "tag": "Scissors",
+      "patterns": [
+        "scissors"
+      ],
+      "responses": [
+        "Rock"
       ]
     },
     {
@@ -73,11 +133,72 @@
       "patterns": [
         "Tell me a joke!",
         "Tell me something funny!",
-        "Do you know a joke?"
+        "Do you know a joke?",
+        "gaming joke"
       ],
       "responses": [
-        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
-        "What did the buffalo say when his son left for college? Bison."
+        "The PC gamer was denied entry to a night club. It was EXCLUSIVE.",
+        "I asked a French man if he played video games. He said Wii.",
+        "Pirate gamers love to play games in ArrRGB",
+        "PC gamers can't use Uber. There are too many incompatible drivers.",
+        "If I don't play games for a week, I start to become really upset. I need to console myself.",
+        "Mike Tyson hates people who play Playstation. It's may be because he's an Xboxer.",
+        "Gamers don't take hot showers. They like to take steamy ones.",
+        "Once you play online for over 10 hours, you are taken to a webpage of video game puns. It's a site for sore eyes.",
+        "Gamers only like one type of fish - Cod.",
+        "I got a PS5 for Christmas. My neighbors haven't even noticed it's missing yet."
+      ]
+    },
+    {
+      "tag": "tips",
+      "patterns": [
+        "gaming tips",
+        "become better at gaming"
+      ],
+      "responses": [
+        "Define your gaming goals.",
+        "Learn the roles and characters in your preferred games.",
+        "Level up with a new gaming PC.",
+        "Connect socially with other gamers.",
+        "Buy a proper gaming mouse and keyboard.",
+        "Upgrade your display.",
+        "Follow your favourite streamers.",
+        "Cool your PC/ Playstation/ Mobile properly.",
+        "Take care of your body and mind.",
+        "Set up your space and take breaks."
+      ]
+    },
+    {
+      "tag": "safteytips",
+      "patterns": [
+        "safe gaming",
+        "become a safe gamer at gaming"
+      ],
+      "responses": [
+        "Secure your computer.",
+        "Create a good password.",
+        "Stick to your username.",
+        "Protect your identity.",
+        "Avoid hidden charges.",
+        "Stand up to bullying.",
+        "Report harassment.",
+        "Keep video and audio between friends.",
+        "Keep your cool, remember: it's a game.",
+        "Have fun plaaying games!",
+        "Take regular breaks while gaming.",
+        "Only use trusted sources to find and download games.",
+        "Do not addicted to games."
+      ]
+    },
+    {
+      "tag": "webservices",
+      "patterns": [
+        "what are the services of this website?",
+        "what this website provides?"
+      ],
+      "responses": [
+        "We provide Gaming tips, a Community chat for gamers, Events and tournaments for Gamers, AI Chat assistant for gamers.",
+        "Gaming tips, Community chat, Events and tournaments, AI Chat assistant"
       ]
     }
   ]

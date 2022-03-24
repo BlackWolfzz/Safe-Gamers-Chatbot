@@ -126,11 +126,13 @@ body {
 .chatbox__heading--header {
     font-size: 1.2rem;
     color: white;
+    cursor: default;
 }
 
 .chatbox__description--header {
     font-size: .9rem;
     color: white;
+    cursor: default;
 }
 
 /* Messages */
