@@ -69,7 +69,7 @@
       "tag": "pcgames",
       "patterns": [
         "pc games",
-        "computer",
+        "computer game",
         "pcgamer"
       ],
       "responses": [
@@ -80,9 +80,9 @@
     {
       "tag": "psgames",
       "patterns": [
-        "ps", "ps2", "ps3", "ps4", "ps5",
+        "ps game", "ps2 game", "ps3 game", "ps4 game", "ps5 game",
         "play station",
-        "playstation"
+        "playstation game"
       ],
       "responses": [
         "What is your PS Gaming related problem?",
@@ -92,9 +92,9 @@
     {
       "tag": "mobilegames",
       "patterns": [
-        "mobile",
+        "mobile game",
         "smart phone",
-        "phone"
+        "phone game"
       ],
       "responses": [
         "What is your Mobile Gaming related problem?",
